@@ -1,0 +1,10 @@
+@import "tailwindcss";
+input,textarea{
+  border:1px solid black;
+  border-radius:5px;
+  padding:10px;
+}
+input::placeholder, textarea::placeholder{
+  color:gray;
+  padding:4px;
+}
