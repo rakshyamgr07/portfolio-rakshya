@@ -4,7 +4,7 @@ function Counter() {
   //hooks
   const [count,setCount] = useState(0);
   return (
-    <div className="bg-gray-200 h-90 w-60 m-10 border border-black-300 flex gap-4 items-center justify-center flex-col">
+    <div className="bg-gray-200 h-90 w-60 m-3 border border-black-300 flex gap-4 items-center justify-center flex-col">
       <h1 >Count:{count}</h1>
       <button className="bg-blue-400 font-bold rounded-sm text-white p-1 hover:scale-105 transition duration-700 rounded-sm" onClick={()=>setCount(count+1)}>Increase</button>
     
@@ -18,7 +18,7 @@ function Counter() {
       return(
 
      
-    <div className=" bg-gray-200 flex gap-4 flex-col items-center  w-60 h-90 border border-black-400 m-10">
+    <div className=" bg-gray-200 flex gap-4 flex-col items-center  w-60 h-90 border border-black-400 m-3">
       <h1 className="italic font-bold">Sign Up Form</h1>
 
       <form className="flex flex-col gap-4">
@@ -45,7 +45,7 @@ function Counter() {
 }
 function Form2(){
   return(
-     <div className="flex m-10">
+     <div className="flex m-3">
       <form className=" bg-gray-200 border border-black-300 p-2 w-60 h-90">
         <h1 className="text-center font-bold text-green-400 uppercase 
         lower:scale transition duration-700 cursor-pointer p-3">Contact
@@ -76,7 +76,7 @@ function Form2(){
         </div>
 
         <div className="flex flex-col p-4 ">
-          <button className="text-white-600 bg-green-600 cursor-pointer">send message</button>
+          <button className="text-white-600 bg-green-600 cursor-pointer hover:scale-105 transition duration-300 text-white rounded-sm">send message</button>
         </div>
       </form>
     </div> 
@@ -85,7 +85,7 @@ function Form2(){
 function App(){
   return(
       <>
-      <div className="flex flex-rows flex-wrap bg-blue-300">
+      <div className="flex flex-rows ">
       <Counter/>
       <Form/>
       <Form2/>
