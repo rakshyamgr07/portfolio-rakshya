@@ -14,7 +14,7 @@ function Hero() {
         <div className="flex gap-2 p-4 justify-center text-gray-400">{/*flex md:flex-row  gap-2 justify-center w-full md:w-1/2 text-center md:text-left */}
           <a href="/CV.pdf" download="RAKSHYA_CURRICULUM_VITAE.pdf">
             <button className='bg-green-400 text-white p-2 m-1 rounded-sm ' >Download CV</button></a>
-          <button className='bg-green-400 text-white p-2 m-1 rounded-sm'>Contact Us</button>
+          <button className='bg-green-400 text-white p-2 m-1 rounded-sm'>Hire Me</button>
         </div>
         {/* social contact */}
         <p className='font-18 p-2 text-white'>connect with us</p>

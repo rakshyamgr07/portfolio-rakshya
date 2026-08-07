@@ -6,7 +6,7 @@ function Projects() {
   return (
     <>
     <h1 className='text-green-400 font-bold text-3xl uppercase text-center'>Projects</h1>
-    <div className='flex flex-row gap-4 flex-wrap m-2'>
+    <div className='flex flex-row justify-center gap-4 flex-wrap m-2'>
       {
         project.map((proj)=>(
             <ProjectCards
