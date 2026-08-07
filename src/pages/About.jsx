@@ -13,19 +13,19 @@ function About() {
 
         <ul className='flex flex-col flex-wrap gap-4'>
 
-          <div className='flex flex-col md:flex-row gap-4 '>
-            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2 text-center'>Html </li>
-            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2 text-center'> css </li>
+          <div className='flex flex-col md:flex-row gap-4 items-stretch '>
+            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'>Html </li>
+            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'> css </li>
           </div>
 
-          <div className='flex flex-col md:flex-row gap-4  '>
-            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2 text-center'> javascript</li>
-            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2 text-center'>  React js</li>
+          <div className='flex flex-col md:flex-row gap-4 items-stretch '>
+            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'> javascript</li>
+            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2 h-14 flex items-center justify-center'>  React js</li>
           </div>
 
-          <div className='flex flex-col md:flex-row gap-4 '>
-            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2 text-center'>tailwind css</li>
-            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2 text-center'>git and github</li>
+          <div className='flex flex-col md:flex-row gap-4 items-stretch'>
+            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'>tailwind css</li>
+            <li className='bg-gray-300 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'>git and github</li>
 
           </div>
         </ul>
