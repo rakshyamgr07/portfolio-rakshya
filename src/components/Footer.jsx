@@ -3,7 +3,7 @@ import { FaLinkedin, FaFacebook, FaInstagram, FaTiktok, FaGithub } from "react-i
 
 function Footer() {
   return (
-    <footer className="bg-gray-600 text-white py-6">
+    <footer className="bg-gray-300 text-black py-6 font-serif italic">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
 
         {/* Left */}
@@ -20,10 +20,10 @@ function Footer() {
 
         {/* Center */}
         <div className="flex gap-5 text-xl">
-          <a href="https://facebook.com"><FaFacebook /></a>
-          <a href="https://instagram.com"><FaInstagram /></a>
+          <a href="https://www.facebook.com/rakshya.mgr12"><FaFacebook /></a>
+          <a href="https://instagram.com/ra_kshyaa/"><FaInstagram /></a>
           <a href="https://tiktok.com"><FaTiktok /></a>
-          <a href="https://github.com"><FaGithub /></a>
+          <a href="https://github.com/rakshyamgr07/"><FaGithub /></a>
           <a href="https://linkedin.com"><FaLinkedin /></a>
         </div>
 

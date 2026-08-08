@@ -10,18 +10,24 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
+
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/project' element={<Projects />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
+
+      <main className="flex-1">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+
       <Footer />
-      <ToastContainer />
-      {/*  simple message show garna use hunxw  */}
-    </>
+      <ToastContainer/>
+      {/* use to display success message */}
+
+    </div>
   )
 }
 
