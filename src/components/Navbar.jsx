@@ -18,7 +18,7 @@ function Navbar() {
           <img src="/me.png" alt="" className='h-12 w-12 rounded-full' />
           <h1 className='font-bold font-serif italic'>Rakshya Gharti Magar</h1>
         </NavLink>
-        <button onClick={() => setOpen(!open)} className='bg-blue-500 p-2 font-bold text-xl mr-5 md:hidden '>{open ? <HiOutlineX /> : <HiOutlineMenu />}</button>
+        <button onClick={() => setOpen(!open)} className=' p-2 font-bold text-xl mr-5 md:hidden '>{open ? <HiOutlineX /> : <HiOutlineMenu />}</button>
 
         <ul className='md:flex hidden gap-5 mr-10'>
           {
