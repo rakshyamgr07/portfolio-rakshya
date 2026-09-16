@@ -13,8 +13,8 @@ function Footer() {
           </h1>
 
           <p className="text-sm mt-2 max-w-md">
-            I design and build highly scalable web applications using
-            React and Tailwind CSS.
+           Full Stack MERN Developer passionate about building modern, responsive, 
+           and user-friendly web applications.
           </p>
         </div>
 
