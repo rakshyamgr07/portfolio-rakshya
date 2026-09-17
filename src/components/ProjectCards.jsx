@@ -2,8 +2,9 @@ import React from 'react'
 
 function ProjectCards(props) {/*props ley data pass garxa parent componenets to child componenets ma*/
   return (
-    <div className='bg-gray-300 p-4 w-100 font-serif  flex flex-col border w-60 rounded-sm shadow-gray-900/30 flex flex-col gap-2 justify-center items-center m-2 p-2 '>
-      <img src={props.image} alt="" className="w-100 h-60 object-fit rounded-sm " />
+    <div className='bg-gray-300  font-serif  flex flex-col  w-100 rounded-sm shadow-xl/10 flex flex-col gap-2 justify-center items-center m-8 p-3 
+    transition hover:shadow-xl/30 hover:scale-105'>
+      <img src={props.image} alt="" className="w-full h-60 p-2 object-fit rounded-lg " />
       <h1 className='text-capitalize font-bold text-center'>{props.title}</h1>
       <p className=' text-sm text-wrap text-center'>{props.desc}</p>
       <div className='flex justify-center'>
