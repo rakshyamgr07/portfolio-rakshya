@@ -10,34 +10,44 @@ function About() {
       <p className='text-center text-black-600 text-base md:text-lg max-w-3xl italic'>I love learning new technologies, solving problems, and developing modern web applications with both efficient frontends and reliable backend systems. 
         I am continuously improving my skills through hands-on projects and exploring modern full-stack development practices.</p>
 
-      <div className='border border-gray-900 rounded-lg w-full max-w-4xl p-6 text-center uppercase rounded-sm  text-center' >
-        <h3 className='text-green-900 font-bold p-2 text-lg'>My knowledge and skills</h3>
+      <div className='border border-gray-900 rounded-lg w-full max-w-4xl p-6 text-center c rounded-sm  text-center' >
+        <h3 className='text-green-900 font-bold p-4 text-xl'>My knowledge and skills</h3>
 
         <ul className='flex flex-col flex-wrap gap-4'>
 
           <div className='flex flex-col md:flex-row gap-4 items-stretch '>
-            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'>Html </li>
-            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'> css </li>
+            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center 
+            transition duration:300  hover:bg-gray-500'>HTML </li>
+            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center
+            transition duration:300  hover:bg-gray-500'> CSS </li>
           </div>
 
           <div className='flex flex-col md:flex-row gap-4 items-stretch '>
-            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'> javascript</li>
-            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2 h-14 flex items-center justify-center'>  React js</li>
+            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center
+            transition duration:300  hover:bg-gray-500'> JavaScript</li>
+            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2 h-14 flex items-center justify-center
+            transition duration:300  hover:bg-gray-500'>  React.js</li>
           </div>
 
           <div className='flex flex-col md:flex-row gap-4 items-stretch'>
-            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'>Node.js</li>
-            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'>Express.js </li>
+            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center
+            transition duration:300  hover:bg-gray-500'>Node.js</li>
+            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center
+            transition duration:300  hover:bg-gray-500'>Express.js </li>
 
           </div>
            <div className='flex flex-col md:flex-row gap-4 items-stretch'>
-            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'>MongoDB </li>
-            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'>Rest APIs</li>
+            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center
+            transition duration:300  hover:bg-gray-500'>MongoDB </li>
+            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center
+            transition duration:300  hover:bg-gray-500'>Rest APIs</li>
           </div>
           
            <div className='flex flex-col md:flex-row gap-4 items-stretch'>
-            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'>tailwind css</li>
-            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center'>git and github</li>
+            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center
+            transition duration:300  hover:bg-gray-500'>Tailwind CSS</li>
+            <li className='bg-gray-400 rounded-md p-3 w-full md:w-1/2  h-14 flex items-center justify-center
+            transition duration:300  hover:bg-gray-500'>Git and GitHub</li>
 
           </div>
         </ul>

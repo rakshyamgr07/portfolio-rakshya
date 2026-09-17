@@ -13,8 +13,8 @@ function Footer() {
           </h1>
 
           <p className="text-sm mt-2 max-w-md">
-           Full Stack MERN Developer passionate about building modern, responsive, 
-           and user-friendly web applications.
+            Full Stack MERN Developer passionate about building modern, responsive,
+            and user-friendly web applications.
           </p>
         </div>
 
@@ -22,9 +22,8 @@ function Footer() {
         <div className="flex gap-5 text-xl">
           <a href="https://www.facebook.com/rakshya.mgr12"><FaFacebook /></a>
           <a href="https://instagram.com/ra_kshyaa/"><FaInstagram /></a>
-          <a href="https://tiktok.com"><FaTiktok /></a>
+          <a href="https://www.linkedin.com/in/rakshya-gharti-magar-9a2a68348/"><FaLinkedin /></a>
           <a href="https://github.com/rakshyamgr07/"><FaGithub /></a>
-          <a href="https://linkedin.com"><FaLinkedin /></a>
         </div>
 
         {/* Right */}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaTiktok, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok, FaGithub, FaLinkedin } from "react-icons/fa";
 function Hero() {
   return (
     <div className="min-h-screen font-serif pt-14 flex flex-col-reverse md:flex-row items-center justify-center gap-6 p-4 bg-gray-300">
@@ -15,14 +15,14 @@ function Hero() {
         <div className="flex gap-2 p-4 justify-center text-gray-400">{/*flex md:flex-row  gap-2 justify-center w-full md:w-1/2 text-center md:text-left */}
           <a href="/Resume.pdf" download="RAKSHYA_CURRICULUM_VITAE.pdf">
             <button className='bg-green-900 text-white p-2 m-1 rounded-sm transition duration-300 hover:scale-105 hover:bg-green-700' >Download CV</button></a>
-          {/* <button className='bg-green-900 text-white p-2 m-1 rounded-sm transition duration-300 hover:scale-105 hover:bg-green-700'>Hire Me</button> */}
+          <button className='bg-green-900 text-white p-2 m-1 rounded-sm transition duration-300 hover:scale-105 hover:bg-green-700'>Hire Me</button>
         </div>
         {/* social contact */}
         <p className='font-18 p-2 text-black italic'>Connect With Me</p>
         <div className="flex gap-4 justify-center text-black text-2xl">
           <a href="https://www.facebook.com/rakshya.mgr12"><FaFacebook /></a>
           <a href="https://instagram.com/ra_kshyaa"><FaInstagram /></a>
-          <a href="https://tiktok.com"><FaTiktok /></a>
+          <a href="https://www.linkedin.com/in/rakshya-gharti-magar-9a2a68348/"><FaLinkedin /></a>
           <a href="https://github.com/rakshyamgr07"><FaGithub /></a>
         </div>
 
