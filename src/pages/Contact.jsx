@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { toast } from 'react-toastify'
-
+import toast from 'react-hot-toast'
+import axios from "axios";
 function Contact() {
   const [form, setForm] = useState(
     {
@@ -17,20 +17,24 @@ function Contact() {
     })
   }
 
-  const handleSubmit = (e) => {
+  async function handleSubmit(e) {
     e.preventDefault();
-    localStorage.setItem("name", form.name)
-    localStorage.setItem("email", form.email)
-    localStorage.setItem("subject", form.subject)
-    localStorage.setItem("message", form.message)
+    try {
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, form)
+      console.log("FULL SEND RESPONSE:", res.data);
+      toast.success(res.data.message)
+      setForm({
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
+      })
 
-    toast.success("Message sent successfully")
-    setForm({
-      name: "",
-      email: "",
-      subject: "",
-      message: ""
-    })
+    } catch (error) {
+      console.log(error);
+      toast.error("Failed to send message");
+    }
+
   }
   return (
     <div className='font-serif flex flex-col items-center justify-center min-h-screen px-4 border border-gray-100 shadow-xl/30'>
@@ -57,7 +61,7 @@ function Contact() {
         <textarea type="text" name="message"
           value={form.message}
           onChange={handleChange}
-          placeholder='Your Message' className='border border-gray-400 p-2 rounded-sm'  />
+          placeholder='Your Message' className='border border-gray-400 p-2 rounded-sm' />
 
         <button type="submit" className='bg-green-900 text-white  p-2 rounded-sm transition duration-300 hover:scale-105 hover:bg-green-700'>Send Message</button>
       </form>
