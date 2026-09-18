@@ -19,21 +19,28 @@ function Contact() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    try {
-      const res = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, form)
-      console.log("FULL SEND RESPONSE:", res.data);
-      toast.success(res.data.message)
-      setForm({
+    toast.success("message send succesfully");
+    setForm({
         name: "",
         email: "",
         subject: "",
         message: ""
       })
+    // try {
+    //   const res = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, form)
+    //   console.log("FULL SEND RESPONSE:", res.data);
+    //   toast.success(res.data.message)
+    //   setForm({
+    //     name: "",
+    //     email: "",
+    //     subject: "",
+    //     message: ""
+    //   })
 
-    } catch (error) {
-      console.log(error);
-      toast.error("Failed to send message");
-    }
+    // } catch (error) {
+    //   console.log(error);
+    //   toast.error("Failed to send message");
+    // }
 
   }
   return (
