@@ -15,9 +15,10 @@ function Hero() {
         <div className="flex gap-2 p-4 justify-center text-gray-400">{/*flex md:flex-row  gap-2 justify-center w-full md:w-1/2 text-center md:text-left */}
           <a href="/RAKSHYA_CV.pdf">
             <button className='bg-green-900 text-white p-2 m-1 rounded-sm transition duration-300 hover:scale-105 hover:bg-green-700' >View CV</button></a>
+           <a href="/contact">
           <button className='bg-green-900 text-white p-2 m-1 rounded-sm transition duration-300 hover:scale-105 hover:bg-green-700'>
-            <a href="/contact">Get in Touch</a>
-          </button>
+           Get in Touch
+          </button></a>
         </div>
         {/* social contact */}
         <p className='font-18 p-2 text-black italic'>Connect With Me</p>
