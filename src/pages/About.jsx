@@ -1,5 +1,6 @@
 import { FaHtml5, FaCss3Alt,FaJs, FaReact,FaNodeJs, FaGitAlt, FaGithub} from "react-icons/fa";
 import { SiExpress, SiMongodb, SiTailwindcss, SiPostman,SiVercel, SiRender,} from "react-icons/si";
+import { TbApi } from "react-icons/tb";
 
 function About() {
   const frontendSkills = [
@@ -14,7 +15,7 @@ function About() {
     { name: "Node.js", icon: FaNodeJs,description:"Building server-side applications"  },
     { name: "Express.js", icon: SiExpress,description:"Developing REST APIs"  },
     { name: "MongoDB", icon: SiMongodb ,description:"Managing application data" },
-    { name: "REST APIs", icon: FaReact,description:"Connecting frontend and backend"  },
+    { name: "REST APIs", icon: TbApi,description:"Connecting frontend and backend"  },
   ];
 
   const toolsSkills = [
