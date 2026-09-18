@@ -12,15 +12,15 @@ function Navbar() {
     })
   }
   return (
-    <nav className='bg-green-900 text-white fixed w-full font-bold'>
+    <nav className='bg-blue-950 text-white fixed w-full font-bold'>
       <div className='flex justify-between items-center'>
-        <NavLink to="/" className="ml-4 p-2 flex flex-row justify-center items-center gap-2">
+        <NavLink to="/" className="ml-4 p-2 flex flex-row justify-center items-center gap-2 hover:text-blue-300">
           <img src="/me.png" alt="" className='h-12 w-12 rounded-full' />
           <h1 className='font-bold font-serif italic'>Rakshya Gharti Magar</h1>
         </NavLink>
         <button onClick={() => setOpen(!open)} className=' p-2 font-bold text-xl mr-5 md:hidden '>{open ? <HiOutlineX /> : <HiOutlineMenu />}</button>
 
-        <ul className='md:flex hidden gap-5 mr-10'>
+        <ul className='md:flex hidden gap-5 mr-10 '>
           {
             navLinks.map((link, index) => (
               <li key={index}>
