@@ -57,7 +57,7 @@ function About() {
     <section className="bg-white py-16 px-4 font-serif w-full">
       <div className="  flex flex-col  items-center">
 
-        <h1 className="text-slate-900 font-bold text-3xl md:text-4xl lg:text-5xl text-center hover:text-blue-800 transition duration-300 hover:scale-101 hover:underline">
+        <h1 className="text-slate-900 font-bold text-3xl md:text-4xl lg:text-5xl text-center hover:text-blue-800 transition duration-300 hover:scale-101">
           About Me
         </h1>
 
@@ -76,7 +76,7 @@ function About() {
           practices.
         </p>
     <div className=" m-4 border border-slate-200 rounded-xl p-5 flex flex-col gap-8 ">
-          <h1 className="text-blue-900 font-bold text-3xl md:text-4xl lg:text-5xl text-center hover:text-blue-800 transition duration-300 hover:scale-101 hover:underline">
+          <h1 className="text-blue-900 font-bold text-3xl md:text-4xl lg:text-4xl text-center hover:text-blue-800 transition duration-300 hover:scale-101 ">
          My Skills
         </h1>
           

@@ -44,11 +44,11 @@ function Contact() {
 
   }
   return (
-    <div className='font-serif flex flex-col items-center justify-center min-h-screen px-4 border border-gray-100 shadow-xl/30'>
-      <h1 className='text-blue-900 font-bold text-4xl text-center m-4'>Contact</h1>
+    <div className='font-serif flex flex-col items-center justify-center min-h-screen px-4 border border-gray-100 shadow-xl/30 gap-20'>
+      <h1 className='text-blue-900 font-bold text-3xl md:text-4xl lg:text-4xl text-center hover:text-blue-800 transition duration-300 hover:scale-101'>Contact</h1>
 
       <form onSubmit={handleSubmit} className='w-full max-w-md bg-slate-50 border border-gray-300  shadow-lg shadow-gray-900/50 rounded-lg p-6 shadow-md flex flex-col gap-6'>
-        <h3 className='text-blue-700 font-bold text-center text-xl font-serif'>Contact form</h3>
+        <h3 className='text-blue-900 font-bold text-xl md:text-2xl lg:text-3xl text-center hover:text-blue-800 transition duration-300 hover:scale-101'>Contact form</h3>
 
         <input type="text" name="name"
           value={form.name}
