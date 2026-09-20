@@ -4,7 +4,7 @@ function ProjectCards(props) {/*props ley data pass garxa parent componenets to 
   return (
     <div className='  font-serif  flex flex-col  w-100 rounded-sm shadow-xl/10 flex flex-col gap-2 justify-center items-center m-8 p-3 
     transition hover:shadow-xl/30 hover:scale-105 border'>
-      <img src={props.image} alt="" className="w-full h-60 p-2 object-cover rounded-sm " />
+      <img src={props.image} alt="" className="w-full h-60 p-2 rounded-xl object-cover " />
       <h1 className='text-capitalize font-bold text-center'>{props.title}</h1>
       <p className=' text-sm text-wrap text-center'>{props.desc}</p>
       <div className='flex justify-center'>

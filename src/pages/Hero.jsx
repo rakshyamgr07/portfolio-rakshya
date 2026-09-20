@@ -33,7 +33,7 @@ function Hero() {
 
       {/* right containers */}
       <div className="w-full md:w-1/2 flex justify-center p-4 m-2">    
-          <img src="/me.png" alt="" className='w-40 h-40 md:w-64 md:h-64 rounded-full object-cover '></img>
+          <img src="/me.png" alt="" className='w-40 h-40 md:w-64 md:h-64  rounded-full object-cover '></img>
       </div>
     </div>
   )
