@@ -9,7 +9,7 @@ function ProjectCards(props) {/*props ley data pass garxa parent componenets to 
       <p className=' text-sm text-wrap text-center'>{props.desc}</p>
       <div className='flex justify-center'>
         <a href={props.url}>
-        <button className='text-white bg-blue-900 rounded-sm mt-1 p-2 text-capitalize align-center min-h-10 transition duration-300 hover:scale-105 hover:bg-blue-700'>View Project</button>
+        <button className='text-white bg-blue-900 rounded-sm mt-1 p-2 text-capitalize align-center min-h-10 transition duration-300 hover:scale-105 hover:bg-blue-700'>Live Demo</button>
       </a>
       </div>
     </div>

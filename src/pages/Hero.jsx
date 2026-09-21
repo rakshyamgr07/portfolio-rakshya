@@ -16,9 +16,10 @@ function Hero() {
           <a href="/RAKSHYA_CV.pdf">
             <button className='bg-blue-600 text-white p-3 m-2 rounded-sm transition duration-300 hover:scale-105 hover:bg-blue-700' >View CV</button></a>
           
+          <a href="/contact">
           <button className='bg-blue-600 text-white p-3 m-2 rounded-sm transition duration-300 hover:scale-105 hover:bg-blue-700'>
-           Hire Me
-          </button>
+          Get in touch
+          </button></a>
         </div>
         {/* social contact */}
         <p className='font-18 p-2 text-black italic'>Connect With Me</p>

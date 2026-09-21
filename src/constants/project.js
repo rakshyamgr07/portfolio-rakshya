@@ -4,7 +4,8 @@ export const project= [
         title: "GreenNest Plants Gallery",
         image:"/plantcareimg.png",
         desc:" A responsive plant e-commerce website using React, Tailwind CSS, and JavaScript with product browsing, navigation, and a contact form.",
-        url:"https://greennest-plants-gallery.vercel.app/"
+        url:"https://greennest-plants-gallery.vercel.app/",
+       
     },
      {
         id:2,
