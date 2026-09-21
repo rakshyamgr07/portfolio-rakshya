@@ -21,12 +21,12 @@ function Footer() {
 
         {/* center */}
         <div className='flex flex-col gap-4'>
-          <h1 className='font-bold hover:underline active:scale-95'>Quick Link</h1>
+          <h1 className='font-bold hover:underline active:scale-95 '>Quick Link</h1>
           <div className='flex flex-col gap-2 '>
             <a href="/" className='hover:underline active:scale-95'>Home</a>
-            <a href="/about" className='hover:underline active:scale-95'>About</a>
-            <a href="/projects" className='hover:underline active:scale-95'>Projects</a>
-            <a href="/contact" className='hover:underline active:scale-95'>Contact</a>
+            <a href="#about" className='hover:underline active:scale-95'>About</a>
+            <a href="#projects" className='hover:underline active:scale-95'>Projects</a>
+            <a href="#contact" className='hover:underline active:scale-95'>Contact</a>
           </div>
         </div>
 
