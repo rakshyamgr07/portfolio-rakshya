@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Projects from './components/Projects'
 import { ToastContainer } from 'react-toastify'
 import Footer from './components/Footer'
+import Education from './pages/Education'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

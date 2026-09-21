@@ -54,7 +54,7 @@ function About() {
   };
 
   return (
-    <section className="bg-white py-16 px-4 font-serif w-full">
+    <section className="bg-white p-8 font-serif w-full">
       <div className="  flex flex-col  items-center">
 
         <h1 className="text-slate-900 font-bold text-3xl md:text-4xl lg:text-5xl text-center hover:text-blue-800 transition duration-300 hover:scale-101">
