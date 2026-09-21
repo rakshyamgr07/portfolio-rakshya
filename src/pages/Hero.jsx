@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaTiktok, FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 function Hero() {
   return (
     <div className="min-h-screen font-serif pt-14 flex flex-col-reverse md:flex-row items-center justify-center gap-6 p-4 bg-slate-50">
@@ -16,10 +17,10 @@ function Hero() {
           <a href="/RAKSHYA_CV.pdf">
             <button className='bg-blue-600 text-white p-3 m-2 rounded-sm transition duration-300 hover:scale-105 hover:bg-blue-700' >View CV</button></a>
           
-          <a href="#contact">
+          <Link to="/contact">
           <button className='bg-blue-600 text-white p-3 m-2 rounded-sm transition duration-300 hover:scale-105 hover:bg-blue-700'>
           Get in touch
-          </button></a>
+          </button></Link>
         </div>
         {/* social contact */}
         <p className='font-18 p-2 text-black italic'>Connect With Me</p>
