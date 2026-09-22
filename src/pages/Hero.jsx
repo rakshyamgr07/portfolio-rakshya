@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTiktok, FaGithub, FaLinkedin } from "react-i
 import { Link } from 'react-router-dom';
 function Hero() {
   return (
-    <div className="min-h-screen font-serif pt-14 flex flex-col-reverse md:flex-row items-center justify-center gap-6 p-4 bg-slate-50">
+    <div className="min-h-screen font-serif pt-14 flex flex-col-reverse md:flex-row items-center justify-center gap-5 p-4 bg-slate-50">
 
       {/* left conatiner */}
        <div className=" text-center items-center p-4 font-serif flex flex-col gap-4">{/*flex flex-col gap-2 items-center w-full md:w-1/2 text-center md:text-left p-4 */}
@@ -34,9 +34,28 @@ function Hero() {
       </div>
 
       {/* right containers */}
-      <div className="w-full md:w-1/2 flex justify-center p-4 m-2">    
-          <img src="/me.png" alt="" className='w-40 h-40 md:w-64 md:h-64  rounded-full object-cover '></img>
-      </div>
+      <div className=" m-10 flex items-center justify-center">
+  <div className="relative w-[350px] h-[350px] rounded-[34px]   border border-cyan-500/30   shadow-[0_0_25px_rgba(0,200,255,0.12)]">
+
+    {/* Laptop */}
+    <div className="h-full flex items-center justify-center">
+      <img
+        src="/laptop.png"
+        alt="Laptop"
+        className="w-36"
+      />
+    </div>
+
+    {/* Button */}
+    <button
+      className="absolute -bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-2  justify-center rounded-full border border-cyan-500/40 bg-[#0d1b2d] px-5 py-2 text-sm font-semibold text-cyan-400 "
+    >
+      <span className="h-2 w-2 rounded-full bg-cyan-400"></span>
+      Open to work
+    </button>
+
+  </div>
+</div>
     </div>
   )
 }
