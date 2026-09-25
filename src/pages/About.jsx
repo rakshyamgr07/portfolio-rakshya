@@ -4,8 +4,8 @@ import { TbApi } from "react-icons/tb";
 
 function About() {
   const frontendSkills = [
-    { name: "HTML", icon: FaHtml5,description:"Building structured web pages" },
-    { name: "CSS", icon: FaCss3Alt ,description:"Styling responsive interfaces" },
+    { name: "HTML5", icon: FaHtml5,description:"Building structured web pages" },
+    { name: "CSS3", icon: FaCss3Alt ,description:"Styling responsive interfaces" },
     { name: "JavaScript", icon: FaJs ,description:"Adding interactive functionality" },
     { name: "React.js", icon: FaReact ,description:"Building dynamic user interfaces" },
     { name: "Tailwind CSS", icon: SiTailwindcss ,description:"Creating modern responsive designs" },

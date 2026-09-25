@@ -28,21 +28,21 @@ function Contact() {
       subject: "",
       message: ""
     })
-    // try {
-    //   const res = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, form)
-    //   console.log("FULL SEND RESPONSE:", res.data);
-    //   toast.success(res.data.message)
-    //   setForm({
-    //     name: "",
-    //     email: "",
-    //     subject: "",
-    //     message: ""
-    //   })
+    try {
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, form)
+      console.log("FULL SEND RESPONSE:", res.data);
+      toast.success(res.data.message)
+      setForm({
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
+      })
 
-    // } catch (error) {
-    //   console.log(error);
-    //   toast.error("Failed to send message");
-    // }
+    } catch (error) {
+      console.log(error);
+      toast.error("Failed to send message");
+    }
 
   }
   return (
