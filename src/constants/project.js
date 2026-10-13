@@ -13,5 +13,12 @@ export const project= [
         image:"/logo.png",
         desc:"A full-stack MERN social platform with authentication, posts, likes, comments, follows, and REST APIs.",
         url:"https://full-stack-project-six-brown.vercel.app/"
-    }
+    },
+    {
+    id: 3,
+    title: "InternHub Nepal – Internship Management Platform",
+    image: "/internhub-logo.png",
+    desc: "A full-stack MERN platform that connects students with internship opportunities, featuring authentication, company profiles, internship posting, search and filtering, applications, and admin management.",
+    url: "https://intern-hub-nepal.vercel.app/"
+}
 ]
