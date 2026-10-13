@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Hero() {
   return (
     <div className="min-h-screen font-serif pt-14 flex flex-col-reverse md:flex-row items-center justify-center gap-5 p-4 bg-slate-50">
-J
+
       {/* left conatiner */}
        <div className=" text-center items-center p-4 font-serif flex flex-col gap-4">{/*flex flex-col gap-2 items-center w-full md:w-1/2 text-center md:text-left p-4 */}
         <h1 className='text-slate-900 font-bold text-4xl uppercase'>Rakshya Gharti Magar</h1>
@@ -22,12 +22,7 @@ J
           <button className='bg-blue-600 text-white p-3 m-2 rounded-sm transition duration-300 hover:scale-105 hover:bg-blue-700'>
           Get in touch
           </button></Link>
-=======
-          <a href="/Resume.pdf" download="RAKSHYA_CURRICULUM_VITAE.pdf">
-            <button className='bg-green-900 text-white p-2 m-1 rounded-sm transition duration-300 hover:scale-105 hover:bg-green-700' >Download CV</button></a>
-          <button className='bg-green-900 text-white p-2 m-1 rounded-sm transition duration-300 hover:scale-105 hover:bg-green-700'>
-            <a href="/contact">Get in Touch</a>
-          </button>
+
         </div>
         {/* social contact */}
         <p className='font-18 p-2 text-black italic'>Connect With Me</p>
