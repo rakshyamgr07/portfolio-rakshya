@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Hero() {
   return (
     <div className="min-h-screen font-serif pt-14 flex flex-col-reverse md:flex-row items-center justify-center gap-5 p-4 bg-slate-50">
-
+J
       {/* left conatiner */}
        <div className=" text-center items-center p-4 font-serif flex flex-col gap-4">{/*flex flex-col gap-2 items-center w-full md:w-1/2 text-center md:text-left p-4 */}
         <h1 className='text-slate-900 font-bold text-4xl uppercase'>Rakshya Gharti Magar</h1>
@@ -14,7 +14,7 @@ function Hero() {
 
 
         <div className="flex gap-2 p-4 justify-center text-gray-400">{/*flex md:flex-row  gap-2 justify-center w-full md:w-1/2 text-center md:text-left */}
-<<<<<<< HEAD
+
           <a href="/RAKSHYA_CV.pdf">
             <button className='bg-blue-600 text-white p-3 m-2 rounded-sm transition duration-300 hover:scale-105 hover:bg-blue-700' >View CV</button></a>
           
@@ -28,7 +28,6 @@ function Hero() {
           <button className='bg-green-900 text-white p-2 m-1 rounded-sm transition duration-300 hover:scale-105 hover:bg-green-700'>
             <a href="/contact">Get in Touch</a>
           </button>
->>>>>>> 66af512 (project added)
         </div>
         {/* social contact */}
         <p className='font-18 p-2 text-black italic'>Connect With Me</p>
