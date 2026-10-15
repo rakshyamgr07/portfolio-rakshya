@@ -7,13 +7,6 @@ export const project= [
         url:"https://greennest-plants-gallery.vercel.app/",
        
     },
-    //  {
-    //     id:2,
-    //     title: "Chautari – Full Stack MERN Social Platform",
-    //     image:"/logo.png",
-    //     desc:"A full-stack MERN social platform with authentication, posts, likes, comments, follows, and REST APIs.",
-    //     url:"https://full-stack-project-six-brown.vercel.app/"
-    // },
     {
     id: 2,
     title: "InternHub Nepal – Internship Management Platform",
