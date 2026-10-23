@@ -41,7 +41,6 @@ function Contact() {
 
     } catch (error) {
       console.log(error);
-      toast.error("Failed to send message");
     }
 
   }
