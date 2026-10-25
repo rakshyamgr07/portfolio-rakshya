@@ -9,7 +9,7 @@ function Hero() {
        <div className=" text-center items-center p-4 font-serif flex flex-col gap-4">{/*flex flex-col gap-2 items-center w-full md:w-1/2 text-center md:text-left p-4 */}
         <h1 className='text-slate-900 font-bold text-4xl uppercase'>Rakshya Gharti Magar</h1>
         <h2 className='text-blue-600 font-bold text-2xl '> Full Stack MERN Developer</h2>
-        <p className='text-slate-700 font-12 italic p-2 md:text-xl'>I am a Full Stack MERN Developer from Nepal with a strong interest in building responsive, scalable, and user-friendly web applications. 
+        <p className='text-slate-700 font-11 italic p-2 md:text-xl'>I am a Full Stack MERN Developer from Nepal with a strong interest in building responsive, scalable, and user-friendly web applications. 
           I work with MongoDB, Express.js, React, and Node.js, and have experience developing dynamic frontend interfaces, REST APIs, and database-driven applications.</p>
 
 

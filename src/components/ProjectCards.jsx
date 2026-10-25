@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProjectCards(props) {/*props ley data pass garxa parent componenets to child componenets ma*/
+function ProjectCards(props) {/*props ley data pass garxa parent components to child componenets ma*/
   return (
     <div className='  font-serif  flex flex-col  w-100 rounded-sm shadow-xl/10 flex flex-col gap-2 justify-center items-center m-8 p-3 
     transition hover:shadow-xl/30 hover:scale-105 border'>
